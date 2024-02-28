@@ -1,0 +1,127 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/poiu4717/xin1/main/000 interval=43200 strict=true
+# Thanks @Hackl0us SS-Rule-Snippet
+[General]
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+dns-server = 114.114.114.114, 223.5.5.5, system
+always-real-ip = stun.l.google.com
+doh-server = https://doh.pub/dns-query
+[Proxy]
+港HK41 = vmess, v41.topman8846.cc, 41341, username=f97053da-6cfe-3e69-816a-93fd9417ed8b, tls=true, vmess-aead=true, udp-relay=true
+港HK44 = vmess, v44.topman8846.cc, 41344, username=f97053da-6cfe-3e69-816a-93fd9417ed8b, tls=true, vmess-aead=true, udp-relay=true
+港HK42 = vmess, v42.topman8846.cc, 41342, username=f97053da-6cfe-3e69-816a-93fd9417ed8b, tls=true, vmess-aead=true, udp-relay=true
+Hong Kong 01=ss,south.ajjpss.lol,41001,encrypt-method=chacha20-ietf-poly1305,password=e543234b-165d-42de-8923-4059cf8b75b8,tfo=true,udp-relay=true
+Hong Kong 02=ss,south.ajjpss.lol,41002,encrypt-method=chacha20-ietf-poly1305,password=e543234b-165d-42de-8923-4059cf8b75b8,tfo=true,udp-relay=true
+Hong Kong 03=ss,south.ajjpss.lol,41003,encrypt-method=chacha20-ietf-poly1305,password=e543234b-165d-42de-8923-4059cf8b75b8,tfo=true,udp-relay=true
+Hong Kong 04=ss,south.ajjpss.lol,41004,encrypt-method=chacha20-ietf-poly1305,password=e543234b-165d-42de-8923-4059cf8b75b8,tfo=true,udp-relay=true
+Hong Kong 05=ss,south.ajjpss.lol,41005,encrypt-method=chacha20-ietf-poly1305,password=e543234b-165d-42de-8923-4059cf8b75b8,tfo=true,udp-relay=true
+Hong Kong 06=ss,south.ajjpss.lol,41006,encrypt-method=chacha20-ietf-poly1305,password=e543234b-165d-42de-8923-4059cf8b75b8,tfo=true,udp-relay=true
+🇭🇰 香港01=ss,zzhk01.51tu.pro,29801,encrypt-method=chacha20-ietf-poly1305,password=db866e9d-261b-4868-98d6-29a3104420eb,tfo=true,udp-relay=true
+🇭🇰 香港02=ss,zzhk01.51tu.pro,29802,encrypt-method=chacha20-ietf-poly1305,password=db866e9d-261b-4868-98d6-29a3104420eb,tfo=true,udp-relay=true
+🇭🇰 香港03=ss,zzhk01.51tu.pro,29803,encrypt-method=chacha20-ietf-poly1305,password=db866e9d-261b-4868-98d6-29a3104420eb,tfo=true,udp-relay=true
+🇭🇰 香港04=ss,zzhk02.51tu.pro,29804,encrypt-method=chacha20-ietf-poly1305,password=db866e9d-261b-4868-98d6-29a3104420eb,tfo=true,udp-relay=true
+🇭🇰 香港05=ss,zzhk02.51tu.pro,29805,encrypt-method=chacha20-ietf-poly1305,password=db866e9d-261b-4868-98d6-29a3104420eb,tfo=true,udp-relay=true
+🇭🇰 香港06=ss,zzhk03.51tu.pro,29806,encrypt-method=chacha20-ietf-poly1305,password=db866e9d-261b-4868-98d6-29a3104420eb,tfo=true,udp-relay=true
+🇭🇰 香港07=ss,zzhk03.51tu.pro,29807,encrypt-method=chacha20-ietf-poly1305,password=db866e9d-261b-4868-98d6-29a3104420eb,tfo=true,udp-relay=true
+🇭🇰 香港08=ss,zzhk03.51tu.pro,29818,encrypt-method=chacha20-ietf-poly1305,password=db866e9d-261b-4868-98d6-29a3104420eb,tfo=true,udp-relay=true
+🇭🇰 香港09=ss,zzhk04.51tu.pro,29809,encrypt-method=chacha20-ietf-poly1305,password=db866e9d-261b-4868-98d6-29a3104420eb,tfo=true,udp-relay=true
+🇭🇰 香港10=ss,zzhk04.51tu.pro,29411,encrypt-method=chacha20-ietf-poly1305,password=db866e9d-261b-4868-98d6-29a3104420eb,tfo=true,udp-relay=true
+日本01=ss,zzjp01.51tu.pro,39101,encrypt-method=chacha20-ietf-poly1305,password=db866e9d-261b-4868-98d6-29a3104420eb,tfo=true,udp-relay=true
+日本02=ss,zzjp02.51tu.pro,39192,encrypt-method=chacha20-ietf-poly1305,password=db866e9d-261b-4868-98d6-29a3104420eb,tfo=true,udp-relay=true
+日本03=ss,zzjp03.51tu.pro,39103,encrypt-method=chacha20-ietf-poly1305,password=db866e9d-261b-4868-98d6-29a3104420eb,tfo=true,udp-relay=true
+日本04=ss,zzjp04.51tu.pro,39104,encrypt-method=chacha20-ietf-poly1305,password=db866e9d-261b-4868-98d6-29a3104420eb,tfo=true,udp-relay=true
+日本05=ss,zzjp01.51tu.pro,39105,encrypt-method=chacha20-ietf-poly1305,password=db866e9d-261b-4868-98d6-29a3104420eb,tfo=true,udp-relay=true
+日本06=ss,zzjp02.51tu.pro,39106,encrypt-method=chacha20-ietf-poly1305,password=db866e9d-261b-4868-98d6-29a3104420eb,tfo=true,udp-relay=true
+日本07=ss,zzjp03.51tu.pro,39107,encrypt-method=chacha20-ietf-poly1305,password=db866e9d-261b-4868-98d6-29a3104420eb,tfo=true,udp-relay=true
+日本08=ss,zzjp04.51tu.pro,39418,encrypt-method=chacha20-ietf-poly1305,password=db866e9d-261b-4868-98d6-29a3104420eb,tfo=true,udp-relay=true
+
+土耳其1=socks5, proxy.miyaip.com,10001,1b7b34cbmiyaipb76_g-tr_f-ff6_sid-gzgBqbwwebq_l-30_sc-1,1g7g3ggggg,udp-relay=false
+土耳其2=socks5, proxy.miyaip.com,10001,1b7b34cbmiyaipb76_g-tr_f-ff6_sid-y15ETzOEj0S_l-30_sc-1,1g7g3ggggg, udp-relay=false
+土耳其3=socks5, proxy.miyaip.com,10001,1b7b34cbmiyaipb76_g-tr_f-ff6_sid-yRFgW4XQCUl_l-30_sc-1,1g7g3ggggg, udp-relay=false
+土耳其4=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-tr_session-rWqxI8DQ, udp-relay=false
+土耳其5=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-tr_session-6J1ouilC, udp-relay=false
+土耳其6=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-tr_session-Di1kvToB, udp-relay=false
+土耳其7=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-tr_session-M0JA6Du4, udp-relay=false
+土耳其8=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-tr_session-lLD9S10k, udp-relay=false
+加纳1=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-gh_session-IornD7xh, udp-relay=false
+加纳2=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-gh_session-0EoAgyfx, udp-relay=false
+加纳3=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-gh_session-cJhTFSGE, udp-relay=false
+加纳4=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-gh_session-aV4Kjno7, udp-relay=false
+加纳5=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-gh_session-SaX07ZtE, udp-relay=false
+尼日利亚1=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-ng_session-0FNntGqj, udp-relay=false
+尼日利亚2=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-ng_session-Yv2EpBOg, udp-relay=false
+尼日利亚3=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-ng_session-2PrUiQT8, udp-relay=false
+尼日利亚4=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-ng_session-Sv39pZqc, udp-relay=false
+尼日利亚5=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-co_session-sXxen8bz, udp-relay=false
+哥伦比亚1=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-ng_session-0FNntGqj, udp-relay=false
+哥伦比亚2=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-co_session-x0ZvcEXJ, udp-relay=false
+哥伦比亚3=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-co_session-veUo7ONB, udp-relay=false
+哥伦比亚4=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-co_session-grYUK23w, udp-relay=false
+哥伦比亚5=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-co_session-tCHilW5O, udp-relay=false
+尼日利亚6=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-ng_session-GlwHJtbI_state-Lagos_city-Lagos, udp-relay=false
+尼日利亚7=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-ng_session-sGBTXr5n_state-Lagos_city-Lagos, udp-relay=false
+尼日利亚8=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-ng_session-B1S79YXA_state-Lagos_city-Lagos, udp-relay=false
+尼日利亚9=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-ng_session-XnGimD3y_state-Lagos_city-Lagos, udp-relay=false
+尼日利亚10=socks5, ytios.cn,37153,poiu4717,9gHUDSv8OK_country-ng_session-HBuZGJaw_state-Lagos_city-Lagos, udp-relay=false
+
+[Proxy Group]
+Proxies= select, 港HK41,港HK42,港HK44,🇭🇰 香港01,🇭🇰 香港02,🇭🇰 香港03,🇭🇰 香港04,🇭🇰 香港05,🇭🇰 香港06,🇭🇰 香港07,🇭🇰 香港08,🇭🇰 香港09,🇭🇰 香港10, Hong Kong 01, Hong Kong 02 , Hong Kong 03, Hong Kong 04, Hong Kong 05,Hong Kong 06,日本01,日本02,日本03,日本04 ,日本05,日本06,日本07,日本08
+Googleplay= select, 港HK41,港HK42,港HK44,土耳其1,土耳其2, 土耳其3, 🇭🇰 香港01,🇭🇰 香港02,🇭🇰 香港03,土耳其4,土耳其5, 土耳其6, 土耳其7,土耳其8,加纳1, 加纳2, 加纳3,加纳4,加纳5,尼日利亚1, 尼日利亚2, 尼日利亚3,尼日利亚4,尼日利亚5,哥伦比亚1,哥伦比亚2,哥伦比亚3, 哥伦比亚4,哥伦比亚5,尼日利亚6, 尼日利亚7, 尼日利亚8,尼日利亚9,尼日利亚10
+
+[Rule]
+DOMAIN-SUFFIX,ipapi.co,Googleplay
+DOMAIN-SUFFIX,ip-api.com,Googleplay
+DOMAIN-SUFFIX,api.ip.sb,Googleplay
+DOMAIN-SUFFIX,IPInfo.io,Googleplay
+DOMAIN-SUFFIX,ipip.net,Googleplay
+DOMAIN-SUFFIX,skk.moe,Googleplay
+DOMAIN-KEYWORD,game,Proxies
+DOMAIN-KEYWORD,gvt1,Proxies
+DOMAIN-KEYWORD,googlevideo.com,Proxies
+DOMAIN-KEYWORD,lra8j.com,DIRECT
+DOMAIN-KEYWORD,cn,DIRECT
+DOMAIN,play-fe.googleapis.com,Googleplay
+IP-CIDR,172.217.160.110/32,Googleplay
+IP-CIDR,172.217.163.46/32,Googleplay
+IP-CIDR,172.217.160.78/32,Googleplay
+IP-CIDR,142.251.42.238/32,Googleplay
+IP-CIDR,142.251.43.14/32,Googleplay
+IP-CIDR,142.251.220.77/32,Googleplay
+IP-CIDR,142.251.42.237/32,Googleplay
+IP-CIDR,172.217.163.45/32,Googleplay
+IP-CIDR,142.250.204.78/32,Googleplay
+IP-CIDR,142.250.66.142/32,Googleplay
+DOMAIN-SUFFIX,1password.com,DIRECT
+DOMAIN-SUFFIX,vultr.com,DIRECT
+DOMAIN-SUFFIX,mb3admin.com,DIRECT
+DOMAIN-SUFFIX,rixcloud.io,DIRECT
+DOMAIN-SUFFIX,tempestapp.io,DIRECT
+DOMAIN-SUFFIX,baidu.com,DIRECT
+DOMAIN-SUFFIX,baidu-int.com,DIRECT
+DOMAIN-SUFFIX,erebor.douban.com,DIRECT
+DOMAIN,mtalk.google.com,DIRECT
+DOMAIN,alt1-mtalk.google.com,DIRECT
+DOMAIN,alt2-mtalk.google.com,DIRECT
+DOMAIN,alt3-mtalk.google.com,DIRECT
+DOMAIN,alt4-mtalk.google.com,DIRECT
+DOMAIN,alt5-mtalk.google.com,DIRECT
+DOMAIN,alt6-mtalk.google.com,DIRECT
+DOMAIN,alt7-mtalk.google.com,DIRECT
+DOMAIN,alt8-mtalk.google.com,DIRECT
+DOMAIN,alt9-mtalk.google.com,DIRECT
+DOMAIN,captive.apple.com,DIRECT
+DOMAIN,time-ios.apple.com,DIRECT
+DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
+DOMAIN-SUFFIX,push.apple.com,DIRECT
+DOMAIN-KEYWORD,github,Proxies
+DOMAIN-SUFFIX,github.com,Proxies
+DOMAIN-SUFFIX,github.io,Proxies
+DOMAIN-SUFFIX,githubassets.com,Proxies
+DOMAIN-SUFFIX,githubusercontent.com,Proxies
+DOMAIN-SUFFIX,googleapis.cn,Proxies
+DOMAIN-SUFFIX,maying.co,Proxies
+DOMAIN-SUFFIX,flowercloud.net,Proxies
+DOMAIN-SUFFIX,socloud.me,Proxies
+DOMAIN-SUFFIX,ytoo.asia,Proxies
+DOMAIN-SUFFIX,ytoo.co.uk,Proxies
+GEOIP,CN,DIRECT
+FINAL,Proxies
