@@ -1,4 +1,4 @@
-#!MANAGED-CONFIG https://raw.githubusercontent.com/poiu4717/KEHU2/main/11111 interval=43200 strict=true
+#!MANAGED-CONFIG https://raw.githubusercontent.com/poiu4717/kong1/main/feng interval=43200 strict=true
 # Thanks @Hackl0us SS-Rule-Snippet
 [General]
 skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
