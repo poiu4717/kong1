@@ -3,21 +3,11 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
-dns:
-  enabled: true
-  nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
+external-controller: 127.0.0.1:9090
 proxies:
 
-  - {name: 🇭🇰 hk1, server: 47.76.162.143, port: 51371, type: vmess, uuid: e9e922a8-c5fc-4db4-ef69-b739ae8f084b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HK2, server: 47.76.143.179, port: 21862, type: vmess, uuid: ea51ab9b-5206-4e82-a228-7b8e05b7f4c5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 hk1, server: 47.76.162.143, port: 51371, type: vmess, uuid: e9e922a8-c5fc-4db4-ef69-b739ae8f084b, alterId: 0, cipher: auto, tls: false, udp: false}
+  - {name: 🇭🇰 HK2, server: 47.76.143.179, port: 21862, type: vmess, uuid: ea51ab9b-5206-4e82-a228-7b8e05b7f4c5, alterId: 0, cipher: auto, tls: false, udp: false}
   - {name: 尼日1, server: 43.249.172.6, port: 8013, type: socks5, username: 47353961-zone-custom-region-NG-city-lagos-sessid-bdzOzBimKG-sessTime-15, password: dJIA8BM3}
   - {name: 尼日2, server: 43.249.172.6, port: 8013, type: socks5, username: 47353961-zone-custom-region-NG-city-lagos-sessid-Ap5vpEEpw9-sessTime-15, password: dJIA8BM3}
   - {name: 尼日3, server: 43.249.172.6, port: 8013, type: socks5, username: 47353961-zone-custom-region-NG-city-lagos-sessid-rznlkhbgeN-sessTime-15, password: dJIA8BM3}
@@ -56,6 +46,11 @@ proxy-groups:
       - 尼日8
       - 尼日9
       - 尼日10
+    disable-udp: false
+    health-check:
+      enable: false
+      interval: 600
+      url: http://www.gstatic.com/generate_204
      
   - name: Proxies
     type: select
@@ -63,6 +58,9 @@ proxy-groups:
      
       - 🇭🇰 hk1
       - 🇭🇰 HK2
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    udp: false
     use:
       - 机场
 
@@ -70,62 +68,10 @@ proxy-groups:
     interval: 600
     udp: false
 rules:
-  - DOMAIN-SUFFIX,ipapi.co,Googleplay
-  - DOMAIN-SUFFIX,ip-api.com,Googleplay
-  - DOMAIN-SUFFIX,api.ip.sb,Googleplay
-  - DOMAIN-SUFFIX,IPInfo.io,Googleplay
-  - DOMAIN-SUFFIX,ipip.net,Googleplay
-  - DOMAIN-SUFFIX,skk.moe,Googleplay
-  - DOMAIN-KEYWORD,game,Proxies
-  - DOMAIN-KEYWORD,gvt1,Proxies
-  - DOMAIN-KEYWORD,googlevideo.com,Proxies
-  - DOMAIN-KEYWORD,lra8j.com,DIRECT
-  - DOMAIN-KEYWORD,cn,DIRECT
-  - DOMAIN,play-fe.googleapis.com,Googleplay
-  - IP-CIDR,172.217.160.110/32,Googleplay
-  - IP-CIDR,172.217.163.46/32,Googleplay
-  - IP-CIDR,172.217.160.78/32,Googleplay
-  - IP-CIDR,142.251.42.238/32,Googleplay
-  - IP-CIDR,142.251.43.14/32,Googleplay
-  - IP-CIDR,142.251.220.77/32,Googleplay
-  - IP-CIDR,142.251.42.237/32,Googleplay
-  - IP-CIDR,172.217.163.45/32,Googleplay
-  - IP-CIDR,142.250.204.78/32,Googleplay
-  - IP-CIDR,142.250.66.142/32,Googleplay
-  - DOMAIN-SUFFIX,1password.com,DIRECT
-  - DOMAIN-SUFFIX,vultr.com,DIRECT
-  - DOMAIN-SUFFIX,mb3admin.com,DIRECT
-  - DOMAIN-SUFFIX,rixcloud.io,DIRECT
-  - DOMAIN-SUFFIX,tempestapp.io,DIRECT
-  - DOMAIN-SUFFIX,baidu.com,DIRECT
-  - DOMAIN-SUFFIX,baidu-int.com,DIRECT
-  - DOMAIN-SUFFIX,erebor.douban.com,DIRECT
-  - DOMAIN,mtalk.google.com,DIRECT
-  - DOMAIN,alt1-mtalk.google.com,DIRECT
-  - DOMAIN,alt2-mtalk.google.com,DIRECT
-  - DOMAIN,alt3-mtalk.google.com,DIRECT
-  - DOMAIN,alt4-mtalk.google.com,DIRECT
-  - DOMAIN,alt5-mtalk.google.com,DIRECT
-  - DOMAIN,alt6-mtalk.google.com,DIRECT
-  - DOMAIN,alt7-mtalk.google.com,DIRECT
-  - DOMAIN,alt8-mtalk.google.com,DIRECT
-  - DOMAIN,alt9-mtalk.google.com,DIRECT
-  - DOMAIN,captive.apple.com,DIRECT
-  - DOMAIN,time-ios.apple.com,DIRECT
-  - DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
-  - DOMAIN-SUFFIX,push.apple.com,DIRECT
-  - DOMAIN-KEYWORD,github,Proxies
-  - DOMAIN-SUFFIX,github.com,Proxies
-  - DOMAIN-SUFFIX,github.io,Proxies
-  - DOMAIN-SUFFIX,githubapp.com,Proxies
-  - DOMAIN-SUFFIX,githubassets.com,Proxies
-  - DOMAIN-SUFFIX,githubusercontent.com,Proxies
-  - DOMAIN-SUFFIX,home-intl.console.aliyun.com,Proxies
-  - DOMAIN-SUFFIX,googleapis.cn,Proxies
-  - DOMAIN-SUFFIX,maying.co,Proxies
-  - DOMAIN-SUFFIX,flowercloud.net,Proxies
-  - DOMAIN-SUFFIX,socloud.me,Proxies
-  - DOMAIN-SUFFIX,ytoo.asia,Proxies
-  - DOMAIN-SUFFIX,ytoo.co.uk,Proxies
-  - GEOIP,CN,DIRECT
-  - MATCH,Proxies
+  - DOMAIN,play.googleapis.com,谷歌分流
+  - DOMAIN,myaccount.google.com,谷歌分流
+  - DOMAIN-KEYWORD,accounts.google.com,谷歌分流
+  - DOMAIN,play-fe.googleapis.com,谷歌分流
+  - DOMAIN,sspanel.net,谷歌分流
+  - DOMAIN,payments-pa.googleapis.com,谷歌分流
+  - MATCH,主线路
