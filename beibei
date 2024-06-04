@@ -5,138 +5,86 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇭🇰 hk1
-    type: vmess
-    server: 47.76.162.143
-    port: "51371"
-    uuid: e9e922a8-c5fc-4db4-ef69-b739ae8f084b
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: false
-  - name: 🇭🇰 HK2
-    type: vmess
-    server: 47.76.143.179
-    port: "21862"
-    uuid: ea51ab9b-5206-4e82-a228-7b8e05b7f4c5
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: false
-  - name: 埃及01
-    type: socks5
-    server: 43.249.172.6
-    port: "9004"
-    username: 47353961-zone-custom-region-EG-sessid-LBnxaaDnM1-sessTime-30
-    password: dJIA8BM3COPY
-    udp: true
-  - name: 埃及02
-    type: socks5
-    server: 43.249.172.6
-    port: "9004"
-    username: 47353961-zone-custom-region-EG-sessid-hs79DGo4pj-sessTime-30
-    password: dJIA8BM3COPY
-    udp: true
-  - name: 埃及03
-    type: socks5
-    server: 43.249.172.6
-    port: "9004"
-    username: 47353961-zone-custom-region-EG-sessid-eftmIIjygv-sessTime-30
-    password: dJIA8BM3COPY
-    udp: true
-  - name: 埃及04
-    type: socks5
-    server: 43.249.172.6
-    port: "9004"
-    username: 47353961-zone-custom-region-EG-sessid-aa4oDabvql-sessTime-30
-    password: dJIA8BM3COPY
-    udp: true
-  - name: 埃及05
-    type: socks5
-    server: 43.249.172.6
-    port: "9004"
-    username: 47353961-zone-custom-region-EG-sessid-d8MqpsC3sD-sessTime-30
-    password: dJIA8BM3COPY
-    udp: true
-  - name: 埃及06
-    type: socks5
-    server: 43.249.172.6
-    port: "9004"
-    username: 47353961-zone-custom-region-EG-sessid-ICvyM1yaLH-sessTime-30
-    password: dJIA8BM3COPY
-    udp: true
-  - name: 埃及07
-    type: socks5
-    server: 43.249.172.6
-    port: "9004"
-    username: 47353961-zone-custom-region-EG-sessid-rBxd19gCOC-sessTime-30
-    password: dJIA8BM3COPY
-    udp: true
-  - name: 埃及08
-    type: socks5
-    server: 43.249.172.6
-    port: "9004"
-    username: 47353961-zone-custom-region-EG-sessid-bkecbze5dq-sessTime-30
-    password: dJIA8BM3COPY
-    udp: true
-  - name: 埃及09
-    type: socks5
-    server: 43.249.172.6
-    port: "9004"
-    username: 47353961-zone-custom-region-EG-sessid-IHioh6vqOd-sessTime-30
-    password: dJIA8BM3COPY
-    udp: true
-  - name: 埃及10
-    type: socks5
-    server: 43.249.172.6
-    port: "9004"
-    username: 47353961-zone-custom-region-EG-sessid-Lm94qf200K-sessTime-30
-    password: dJIA8BM3COPY
-    udp: true
+
+  - {name: 🇭🇰 hk1, server: 47.76.162.143, port: 51371, type: vmess, uuid: e9e922a8-c5fc-4db4-ef69-b739ae8f084b, alterId: 0, cipher: auto, tls: false, udp: false}
+  - {name: 🇭🇰 HK2, server: 47.76.143.179, port: 21862, type: vmess, uuid: ea51ab9b-5206-4e82-a228-7b8e05b7f4c5, alterId: 0, cipher: auto, tls: false, udp: false}
+  - {name: 孟加拉1, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-BD-sessid-bJIK9uaoKK-sessTime-30, password: dJIA8BM3}
+  - {name: 孟加拉2, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-BD-sessid-JMIuHxMH2i-sessTime-30, password: dJIA8BM3}
+  - {name: 孟加拉3, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-BD-sessid-bz4N4CiifI-sessTime-30, password: dJIA8BM3}
+  - {name: 孟加拉4, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-BD-sessid-ItxtnHPv1O-sessTime-30, password: dJIA8BM3}
+  - {name: 孟加拉5, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-BD-sessid-q3CBhmLr3H-sessTime-30, password: dJIA8BM3}
+  - {name: 孟加拉6, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-BD-sessid-b3fAsICeAI-sessTime-30, password: dJIA8BM3}
+  - {name: 孟加拉7, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-BD-sessid-PeFb87ee1J-sessTime-30, password: dJIA8BM3}
+  - {name: 孟加拉8, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-BD-sessid-q366CiuFG0-sessTime-30, password: dJIA8BM3}
+  - {name: 孟加拉9, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-BD-sessid-u0Ex8OcIKB-sessTime-30, password: dJIA8BM3}
+  - {name: 孟加拉10, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-BD-sessid-Bim0Gc46tI-sessTime-30, password: dJIA8BM3}
+  - {name: 埃及1, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-EG-sessid-pjgsiBmdOx-sessTime-30, password: dJIA8BM3}
+  - {name: 埃及2, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-EG-sessid-ho2F8c8AAr-sessTime-30, password: dJIA8BM3}
+  - {name: 埃及3, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-EG-sessid-M7g9wnwaBN-sessTime-30, password: dJIA8BM3}
+  - {name: 埃及4, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-EG-sessid-x0zhPi7qaa-sessTime-30, password: dJIA8BM3} 
+  - {name: 埃及5, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-EG-sessid-8th0LGlKNh-sessTime-30, password: dJIA8BM3}
+  - {name: 埃及6, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-EG-sessid-AsMhD3Dt1y-sessTime-30, password: dJIA8BM3}
+  - {name: 埃及7, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-EG-sessid-05dKglLlFv-sessTime-30, password: dJIA8BM3}
+  - {name: 埃及8, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-EG-sessid-B5nmrsvtvK-sessTime-30, password: dJIA8BM3} 
+  - {name: 埃及9, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-EG-sessid-2aINwDe9GK-sessTime-30, password: dJIA8BM3}
+  - {name: 埃及10, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-EG-sessid-IbJMO0tu4D-sessTime-30, password: dJIA8BM3}
 proxy-providers:
           机场:
             type: http
-            url: http://sub.id9.cc/sub?target=clash&url=https%3A%2F%2Ffly0001.buzz%2Fgateway%2Ffeitu%3Ftoken%3Db6ad60273e669b9e6cb369cab42ad37b&insert=false&udp=false
+            url: https://fly0001.buzz/gateway/feitu?token=b6ad60273e669b9e6cb369cab42ad37b
             interval: 86400
             path: ./proxy_provider/jc.yaml
             udp: false
             health-check:
               enable: true
               interval: 600
-              url: http://www.gstatic.com/generate_204
+              url: http://www.gstatic.com/generate_204  
+
 proxy-groups:
-  - name: 主线路
-    proxies:
-      - DIRECT
-      - 谷歌分流
-    use:
-      - 机场
-    type: select
-    disable-udp: true
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
   - name: 谷歌分流
-    proxies:
-      - 埃及01
-      - 埃及02
-      - 埃及03
-      - 埃及04
-      - 埃及05
-      - 埃及06
-      - 埃及07
-      - 埃及08
-      - 埃及09
-      - 埃及10
     type: select
+    proxies:
+
+      - 孟加拉1
+      - 孟加拉2
+      - 孟加拉3
+      - 孟加拉4
+      - 孟加拉5
+      - 孟加拉6
+      - 孟加拉7
+      - 孟加拉8
+      - 孟加拉9
+      - 孟加拉10
+      - 埃及1
+      - 埃及2
+      - 埃及3
+      - 埃及4
+      - 埃及5
+      - 埃及6
+      - 埃及7
+      - 埃及8
+      - 埃及9
+      - 埃及10
     disable-udp: false
     health-check:
       enable: false
       interval: 600
       url: http://www.gstatic.com/generate_204
+     
+  - name: 主线路
+    type: select
+    proxies:
+     
+      - 🇭🇰 hk1
+      - 🇭🇰 HK2
+
+    use:
+      - 机场
+
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+    udp: false
 rules:
-#  - AND,((NETWORK,UDP),(DOMAIN,play-fe.googleapis.com)),谷歌分流
   - DOMAIN,play.googleapis.com,谷歌分流
   - DOMAIN,myaccount.google.com,谷歌分流
   - DOMAIN-KEYWORD,accounts.google.com,谷歌分流
