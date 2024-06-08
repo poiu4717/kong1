@@ -28,6 +28,16 @@ proxies:
   - {name: 埃及8, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-EG-sessid-B5nmrsvtvK-sessTime-30, password: dJIA8BM3} 
   - {name: 埃及9, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-EG-sessid-2aINwDe9GK-sessTime-30, password: dJIA8BM3}
   - {name: 埃及10, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-EG-sessid-IbJMO0tu4D-sessTime-30, password: dJIA8BM3}
+  - {name: 尼日利亚1, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-NG-sessid-dqyqGj6b-sessTime-30, password: dJIA8BM3}
+  - {name: 尼日利亚2, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-NG-sessid-DMhv70Ee-sessTime-30, password: dJIA8BM3}
+  - {name: 尼日利亚3, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-NG-sessid-I0fAANm7-sessTime-30, password: dJIA8BM3}
+  - {name: 尼日利亚4, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-NG-sessid-09FwM5Na-sessTime-30, password: dJIA8BM3} 
+  - {name: 尼日利亚5, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-NG-sessid-VWYXtL7H-sessTime-30, password: dJIA8BM3}
+  - {name: 尼日利亚6, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-NG-sessid-UEyJ42wa-sessTime-30, password: dJIA8BM3}
+  - {name: 尼日利亚7, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-NG-sessid-xx8wqt94-sessTime-30, password: dJIA8BM3}
+  - {name: 尼日利亚8, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-NG-sessid-2Sb1QoIA-sessTime-30, password: dJIA8BM3} 
+  - {name: 尼日利亚9, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-NG-sessid-1bibTzv3-sessTime-30, password: dJIA8BM3}
+  - {name: 尼日利亚10, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-NG-sessid-YQ5sef16-sessTime-30, password: dJIA8BM3}
 proxy-providers:
           机场:
             type: http
@@ -65,6 +75,16 @@ proxy-groups:
       - 埃及8
       - 埃及9
       - 埃及10
+      - 尼日利亚1
+      - 尼日利亚2
+      - 尼日利亚3
+      - 尼日利亚4
+      - 尼日利亚5
+      - 尼日利亚6
+      - 尼日利亚7
+      - 尼日利亚8
+      - 尼日利亚9
+      - 尼日利亚10
     disable-udp: false
     health-check:
       enable: false
