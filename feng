@@ -9,16 +9,16 @@ doh-server = https://doh.pub/dns-query
 Hong Kong 02 = vmess, 47.76.143.179, 21862, username=ea51ab9b-5206-4e82-a228-7b8e05b7f4c5, udp-relay=false
 Hong Kong 01 = vmess, 47.76.162.143, 51371, username=e9e922a8-c5fc-4db4-ef69-b739ae8f084b, udp-relay=false
 
-尼日利亚6=socks5, 43.249.172.6,7001,poiu4717,9gHUDSv8OK_country-ng_session-lDBdoVIx, udp-relay=false
-尼日利亚7=socks5, 43.249.172.6,7001,poiu4717,9gHUDSv8OK_country-ng_session-CIHgo4YQ, udp-relay=false
-尼日利亚8=socks5, 43.249.172.6,7001,poiu4717,9gHUDSv8OK_country-ng_session-Ww6VmbQ4, udp-relay=false
-尼日利亚9=socks5, 43.249.172.6,7001,poiu4717,9gHUDSv8OK_country-ng_session-w3YVhnoG, udp-relay=false
-尼日利亚10=socks5, 43.249.172.6,7001,poiu4717,9gHUDSv8OK_country-ng_session-XT2wbqMh, udp-relay=false
-尼日利亚1=socks5, 43.249.172.6,7002,poiu4717-zone-resi-region-ng-session-71007843b65e-sessTime-30,AA112211, udp-relay=false
-尼日利亚2=socks5, 43.249.172.6,7002,poiu4717-zone-resi-region-ng-session-1f0d622f53c8-sessTime-30,AA112211, udp-relay=false
-尼日利亚3=socks5, 43.249.172.6,7002,poiu4717-zone-resi-region-ng-session-59c434459548-sessTime-30,AA112211, udp-relay=false
-尼日利亚4=socks5, 43.249.172.6,7002,poiu4717-zone-resi-region-ng-session-fc04c4cb0eb5-sessTime-30,AA112211, udp-relay=false
-尼日利亚5=socks5, 43.249.172.6,7002,poiu4717-zone-resi-region-ng-session-f81f606fce5b-sessTime-30,AA112211, udp-relay=false
+尼日利亚6=socks5, 43.249.172.6,7003,47353961-zone-custom-region-NG-sessid-YeIiwGsc-sessTime-30,dJIA8BM3COPY, udp-relay=false
+尼日利亚7=socks5, 43.249.172.6,7003,47353961-zone-custom-region-NG-sessid-W51ZrHBt-sessTime-30,dJIA8BM3COPY, udp-relay=false
+尼日利亚8=socks5, 43.249.172.6,7003,47353961-zone-custom-region-NG-sessid-16AWRQwW-sessTime-30,dJIA8BM3COPY, udp-relay=false
+尼日利亚9=socks5, 43.249.172.6,7003,47353961-zone-custom-region-NG-sessid-J2pWjUsW-sessTime-30,dJIA8BM3COPY, udp-relay=false
+尼日利亚10=socks5, 43.249.172.6,7003,47353961-zone-custom-region-NG-sessid-jBQm62nD-sessTime-30,dJIA8BM3COPY, udp-relay=false
+尼日利亚1=socks5, 43.249.172.6,7003,47353961-zone-custom-region-NG-sessid-m3NrF5kn-sessTime-30,dJIA8BM3COPY, udp-relay=false
+尼日利亚2=socks5, 43.249.172.6,7003,47353961-zone-custom-region-NG-sessid-QIL7kj57-sessTime-30,dJIA8BM3COPY, udp-relay=false
+尼日利亚3=socks5, 43.249.172.6,7003,47353961-zone-custom-region-NG-sessid-G6DySKUS-sessTime-30,dJIA8BM3COPY, udp-relay=false
+尼日利亚4=socks5, 43.249.172.6,7003,47353961-zone-custom-region-NG-sessid-pAoevhur-sessTime-30,dJIA8BM3COPY, udp-relay=false
+尼日利亚5=socks5, 43.249.172.6,7003,47353961-zone-custom-region-NG-sessid-P3EPJxBn-sessTime-30,dJIA8BM3COPY, udp-relay=false
 
 
 [Proxy Group]
