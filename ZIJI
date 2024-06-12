@@ -24,18 +24,6 @@ proxies:
   - { name: '🇯🇵 日本_04', type: ss, server: jp04.51feitu.com, port: 39104, cipher: chacha20-ietf-poly1305, password: 4e079290-392b-4e4b-bdc4-f0a1f56ae841, udp: true }
   - { name: '🇯🇵 日本_05', type: ss, server: jp05.51feitu.com, port: 39105, cipher: chacha20-ietf-poly1305, password: 4e079290-392b-4e4b-bdc4-f0a1f56ae841, udp: true }
 
-proxy-providers:
-          机场:
-            type: http
-            url: https://fly0001.buzz/gateway/feitu?token=b6ad60273e669b9e6cb369cab42ad37b
-            interval: 86400
-            path: /proxy_provider1/jc.yaml
-            udp: false
-            health-check:
-              enable: true
-              interval: 600
-              url: http://www.gstatic.com/generate_204  
-
 proxy-groups:
   - name: 谷歌分流
     type: select
@@ -70,12 +58,7 @@ proxy-groups:
       - '🇯🇵 日本_04'
       - '🇯🇵 日本_05'
 
-    use:
-      - 机场
 
-    url: http://www.gstatic.com/generate_204
-    interval: 600
-    udp: false
 rules:
   - DOMAIN,play.googleapis.com,谷歌分流
   - DOMAIN,myaccount.google.com,谷歌分流
