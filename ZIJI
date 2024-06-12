@@ -24,7 +24,7 @@ proxy-providers:
             type: http
             url: https://fly0001.buzz/gateway/feitu?token=b6ad60273e669b9e6cb369cab42ad37b
             interval: 86400
-            path: ./proxy_provider/jc.yaml
+            path: /proxy_provider1/jc.yaml
             udp: false
             health-check:
               enable: true
