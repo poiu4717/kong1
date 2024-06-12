@@ -18,6 +18,11 @@ proxies:
   - {name: 尼日8, server: 43.249.172.6, port: 8013, type: socks5, username: 47353961-zone-custom-region-NG-city-lagos-sessid-tvz0HFAHyx-sessTime-15, password: dJIA8BM3}
   - {name: 尼日9, server: 43.249.172.6, port: 8013, type: socks5, username: 47353961-zone-custom-region-NG-city-lagos-sessid-kg5Il0E9z7-sessTime-15, password: dJIA8BM3}
   - {name: 尼日10, server: 43.249.172.6, port: 8013, type: socks5, username: 47353961-zone-custom-region-NG-city-lagos-sessid-Gpm5JDtPCf-sessTime-15, password: dJIA8BM3}
+  - { name: '🇯🇵 日本_01', type: ss, server: jp01.51feitu.com, port: 39191, cipher: chacha20-ietf-poly1305, password: 4e079290-392b-4e4b-bdc4-f0a1f56ae841, udp: true }
+  - { name: '🇯🇵 日本_02', type: ss, server: jp02.51feitu.com, port: 39192, cipher: chacha20-ietf-poly1305, password: 4e079290-392b-4e4b-bdc4-f0a1f56ae841, udp: true }
+  - { name: '🇯🇵 日本_03', type: ss, server: jp03.51feitu.com, port: 39103, cipher: chacha20-ietf-poly1305, password: 4e079290-392b-4e4b-bdc4-f0a1f56ae841, udp: true }
+  - { name: '🇯🇵 日本_04', type: ss, server: jp04.51feitu.com, port: 39104, cipher: chacha20-ietf-poly1305, password: 4e079290-392b-4e4b-bdc4-f0a1f56ae841, udp: true }
+  - { name: '🇯🇵 日本_05', type: ss, server: jp05.51feitu.com, port: 39105, cipher: chacha20-ietf-poly1305, password: 4e079290-392b-4e4b-bdc4-f0a1f56ae841, udp: true }
 
 proxy-providers:
           机场:
@@ -46,6 +51,7 @@ proxy-groups:
       - 尼日8
       - 尼日9
       - 尼日10
+
     disable-udp: false
     health-check:
       enable: false
@@ -58,6 +64,11 @@ proxy-groups:
      
       - 🇭🇰 hk1
       - 🇭🇰 HK2
+      - '🇯🇵 日本_01'
+      - '🇯🇵 日本_02'
+      - '🇯🇵 日本_03'
+      - '🇯🇵 日本_04'
+      - '🇯🇵 日本_05'
 
     use:
       - 机场
