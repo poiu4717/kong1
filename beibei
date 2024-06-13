@@ -38,6 +38,16 @@ proxies:
   - {name: 尼日利亚8, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-NG-sessid-2Sb1QoIA-sessTime-30, password: dJIA8BM3} 
   - {name: 尼日利亚9, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-NG-sessid-1bibTzv3-sessTime-30, password: dJIA8BM3}
   - {name: 尼日利亚10, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-NG-sessid-YQ5sef16-sessTime-30, password: dJIA8BM3}
+  - {name: 哥伦比亚1, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-Co-sessid-osTKR0px-sessTime-30, password: dJIA8BM3}
+  - {name: 哥伦比亚2, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-Co-sessid-aVKnc2cn-sessTime-30, password: dJIA8BM3}
+  - {name: 哥伦比亚3, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-Co-sessid-HuYruFhb-sessTime-30, password: dJIA8BM3}
+  - {name: 哥伦比亚4, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-Co-sessid-wvlblyRo-sessTime-30, password: dJIA8BM3} 
+  - {name: 哥伦比亚5, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-Co-sessid-tMiOLyQP-sessTime-30, password: dJIA8BM3}
+  - {name: 哥伦比亚6, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-Co-sessid-B5uY2W9u-sessTime-30, password: dJIA8BM3}
+  - {name: 哥伦比亚7, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-Co-sessid-3cShBKkb-sessTime-30, password: dJIA8BM3}
+  - {name: 哥伦比亚8, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-Co-sessid-D7P7tlf1-sessTime-30, password: dJIA8BM3} 
+  - {name: 哥伦比亚9, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-Co-sessid-sPt7fcpp-sessTime-30, password: dJIA8BM3}
+  - {name: 哥伦比亚10, server: 43.249.172.6, port: 9004, type: socks5, username: 47353961-zone-custom-region-Co-sessid-WCqQ0vmy-sessTime-30, password: dJIA8BM3}
 proxy-providers:
           机场:
             type: http
@@ -85,6 +95,16 @@ proxy-groups:
       - 尼日利亚8
       - 尼日利亚9
       - 尼日利亚10
+      - 哥伦比亚1
+      - 哥伦比亚2
+      - 哥伦比亚3
+      - 哥伦比亚4
+      - 哥伦比亚5
+      - 哥伦比亚6
+      - 哥伦比亚7
+      - 哥伦比亚8
+      - 哥伦比亚9
+      - 哥伦比亚10
     disable-udp: false
     health-check:
       enable: false
