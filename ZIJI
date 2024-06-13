@@ -27,7 +27,7 @@ proxies:
 proxy-providers:
           机场:
             type: http
-            url: https://911tg3rs.com/api/v1/client/subscribe?token=1721af7acdec65ad5703ba408ec4b435
+            url: https://suo.yt/noOLYg8
             interval: 86400
             path: ./proxy_provider/jc.yaml
             udp: false
