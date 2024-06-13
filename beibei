@@ -51,7 +51,7 @@ proxies:
 proxy-providers:
           机场:
             type: http
-            url: https://fly0001.buzz/gateway/feitu?token=b6ad60273e669b9e6cb369cab42ad37b
+            url: https://suo.yt/noOLYg8
             interval: 86400
             path: ./proxy_provider/jc.yaml
             udp: false
