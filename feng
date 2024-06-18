@@ -20,7 +20,7 @@ Hong Kong 01 = vmess, 47.76.162.143, 51371, username=e9e922a8-c5fc-4db4-ef69-b73
 尼日利亚4=socks5, 43.135.128.114,7003,47353961-zone-custom-region-NG-sessid-pAoevhur-sessTime-30,dJIA8BM3, udp-relay=false
 尼日利亚5=socks5, 43.135.128.114,7003,47353961-zone-custom-region-NG-sessid-P3EPJxBn-sessTime-30,dJIA8BM3, udp-relay=false
 尼日利亚测6=socks5, 43.135.128.114,5022,userID-4328-orderid-9964-region-ng-sessionID-CUrT93-sessiontime-30,giGRNB, udp-relay=false
-尼日利亚测7socks5, 43.135.128.114,5022,userID-4328-orderid-9964-region-ng-sessionID-Tv7-sessiontime-30,giGRNB, udp-relay=false
+尼日利亚测7=socks5, 43.135.128.114,5022,userID-4328-orderid-9964-region-ng-sessionID-Tv7-sessiontime-30,giGRNB, udp-relay=false
 尼日利亚测8=socks5, 43.135.128.114,5022,userID-4328-orderid-9964-region-ng-sessionID-SCEOC-sessiontime-30,giGRNB, udp-relay=false
 尼日利亚测9=socks5, 43.135.128.114,5022,userID-4328-orderid-9964-region-ng-sessionID-D-sessiontime-30,dgiGRNB, udp-relay=false
 尼日利亚测10=socks5, 43.135.128.114,5022,userID-4328-orderid-9964-region-ng-sessionID-dOUa-sessiontime-30,giGRNB, udp-relay=false
