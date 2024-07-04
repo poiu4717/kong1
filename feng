@@ -25,10 +25,10 @@ Hong Kong 01 = vmess, 47.76.162.143, 51371, username=e9e922a8-c5fc-4db4-ef69-b73
 尼日利亚测9=socks5, 43.135.128.114,5022,userID-4328-orderid-9964-region-ng-sessionID-D-sessiontime-30,giGRNB, udp-relay=false
 尼日利亚测10=socks5, 43.135.128.114,5022,userID-4328-orderid-9964-region-ng-sessionID-dOUa-sessiontime-30,giGRNB, udp-relay=false
 尼日利亚测1=socks5, 34.141.219.7,9000,7b8587ae-fb8354c4-20b1ea,wifi-ng,udp-relay=false
-尼日利亚测2=socks5, 34.141.219.7,9001:7b8587ae-fb8354c4-eac382,wifi-ng, udp-relay=false
-尼日利亚测3=socks5, 34.141.219.7,9002:7b8587ae-fb8354c4-6d114f,wifi-ng, udp-relay=false
-尼日利亚测4=socks5, 34.141.219.7,9003:7b8587ae-fb8354c4-2998d6,wifi-ng, udp-relay=false
-尼日利亚测5=socks5, 34.141.219.7,9004:7b8587ae-fb8354c4-24ba80,wifi-ng, udp-relay=false
+尼日利亚测2=socks5, 34.141.219.7,9001,7b8587ae-fb8354c4-eac382,wifi-ng, udp-relay=false
+尼日利亚测3=socks5, 34.141.219.7,9002,7b8587ae-fb8354c4-6d114f,wifi-ng, udp-relay=false
+尼日利亚测4=socks5, 34.141.219.7,9003,7b8587ae-fb8354c4-2998d6,wifi-ng, udp-relay=false
+尼日利亚测5=socks5, 34.141.219.7,9004,7b8587ae-fb8354c4-24ba80,wifi-ng, udp-relay=false
 
 
 [Proxy Group]
