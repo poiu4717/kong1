@@ -9,21 +9,21 @@ doh-server = https://doh.pub/dns-query
 Hong Kong 02 = vmess, 47.76.143.179, 21862, username=ea51ab9b-5206-4e82-a228-7b8e05b7f4c5, udp-relay=false
 Hong Kong 01 = vmess, 47.76.162.143, 51371, username=e9e922a8-c5fc-4db4-ef69-b739ae8f084b, udp-relay=false
 
-尼日利亚6=socks5, 43.135.128.114,7003,47353961-zone-custom-region-NG-sessid-YeIiwGsc-sessTime-30,dJIA8BM3, udp-relay=false
-尼日利亚7=socks5, 43.135.128.114,7003,47353961-zone-custom-region-NG-sessid-W51ZrHBt-sessTime-30,dJIA8BM3, udp-relay=false
-尼日利亚8=socks5, 43.135.128.114,7003,47353961-zone-custom-region-NG-sessid-16AWRQwW-sessTime-30,dJIA8BM3, udp-relay=false
-尼日利亚9=socks5, 43.135.128.114,7003,47353961-zone-custom-region-NG-sessid-J2pWjUsW-sessTime-30,dJIA8BM3, udp-relay=false
-尼日利亚10=socks5, 43.135.128.114,7003,47353961-zone-custom-region-NG-sessid-jBQm62nD-sessTime-30,dJIA8BM3, udp-relay=false
-尼日利亚1=socks5, 43.135.128.114,7003,47353961-zone-custom-region-NG-sessid-m3NrF5kn-sessTime-30,dJIA8BM3, udp-relay=false
-尼日利亚2=socks5, 43.135.128.114,7003,47353961-zone-custom-region-NG-sessid-QIL7kj57-sessTime-30,dJIA8BM3, udp-relay=false
-尼日利亚3=socks5, 43.135.128.114,7003,47353961-zone-custom-region-NG-sessid-G6DySKUS-sessTime-30,dJIA8BM3, udp-relay=false
-尼日利亚4=socks5, 43.135.128.114,7003,47353961-zone-custom-region-NG-sessid-pAoevhur-sessTime-30,dJIA8BM3, udp-relay=false
-尼日利亚5=socks5, 43.135.128.114,7003,47353961-zone-custom-region-NG-sessid-P3EPJxBn-sessTime-30,dJIA8BM3, udp-relay=false
+尼日利亚6=socks5, mh.jinhuiios.top,8001,47353961-zone-custom-region-NG-sessid-YeIiwGsc-sessTime-30,dJIA8BM3, udp-relay=false
+尼日利亚7=socks5, mh.jinhuiios.top,8001,47353961-zone-custom-region-NG-sessid-W51ZrHBt-sessTime-30,dJIA8BM3, udp-relay=false
+尼日利亚8=socks5, mh.jinhuiios.top,8001,47353961-zone-custom-region-NG-sessid-16AWRQwW-sessTime-30,dJIA8BM3, udp-relay=false
+尼日利亚9=socks5, mh.jinhuiios.top,8001,47353961-zone-custom-region-NG-sessid-J2pWjUsW-sessTime-30,dJIA8BM3, udp-relay=false
+尼日利亚10=socks5, mh.jinhuiios.top,8001,47353961-zone-custom-region-NG-sessid-jBQm62nD-sessTime-30,dJIA8BM3, udp-relay=false
+尼日利亚1=socks5, mh.jinhuiios.top,8001,47353961-zone-custom-region-NG-sessid-m3NrF5kn-sessTime-30,dJIA8BM3, udp-relay=false
+尼日利亚2=socks5, mh.jinhuiios.top,8001,47353961-zone-custom-region-NG-sessid-QIL7kj57-sessTime-30,dJIA8BM3, udp-relay=false
+尼日利亚3=socks5, mh.jinhuiios.top,8001,47353961-zone-custom-region-NG-sessid-G6DySKUS-sessTime-30,dJIA8BM3, udp-relay=false
+尼日利亚4=socks5, mh.jinhuiios.top,8001,47353961-zone-custom-region-NG-sessid-pAoevhur-sessTime-30,dJIA8BM3, udp-relay=false
+尼日利亚5=socks5, mh.jinhuiios.top,8001,47353961-zone-custom-region-NG-sessid-P3EPJxBn-sessTime-30,dJIA8BM3, udp-relay=false
 尼日利亚测6=socks5, 34.141.219.7,9005,7b8587ae-fb8354c4-901c0b,wifi-ng, udp-relay=false
-尼日利亚测7=socks5, 43.135.128.114,5022,userID-4328-orderid-9964-region-ng-sessionID-Tv7-sessiontime-30,giGRNB, udp-relay=false
-尼日利亚测8=socks5, 43.135.128.114,5022,userID-4328-orderid-9964-region-ng-sessionID-SCEOC-sessiontime-30,giGRNB, udp-relay=false
-尼日利亚测9=socks5, 43.135.128.114,5022,userID-4328-orderid-9964-region-ng-sessionID-D-sessiontime-30,giGRNB, udp-relay=false
-尼日利亚测10=socks5, 43.135.128.114,5022,userID-4328-orderid-9964-region-ng-sessionID-dOUa-sessiontime-30,giGRNB, udp-relay=false
+尼日利亚测7=socks5, mh.jinhuiios.top,5022,userID-4328-orderid-9964-region-ng-sessionID-Tv7-sessiontime-30,giGRNB, udp-relay=false
+尼日利亚测8=socks5, mh.jinhuiios.top,5022,userID-4328-orderid-9964-region-ng-sessionID-SCEOC-sessiontime-30,giGRNB, udp-relay=false
+尼日利亚测9=socks5, mh.jinhuiios.top,5022,userID-4328-orderid-9964-region-ng-sessionID-D-sessiontime-30,giGRNB, udp-relay=false
+尼日利亚测10=socks5, mh.jinhuiios.top,5022,userID-4328-orderid-9964-region-ng-sessionID-dOUa-sessiontime-30,giGRNB, udp-relay=false
 尼日利亚测1=socks5, 34.141.219.7,9000,7b8587ae-fb8354c4-20b1ea,wifi-ng,udp-relay=false
 尼日利亚测2=socks5, 34.141.219.7,9001,7b8587ae-fb8354c4-eac382,wifi-ng, udp-relay=false
 尼日利亚测3=socks5, 34.141.219.7,9002,7b8587ae-fb8354c4-6d114f,wifi-ng, udp-relay=false
