@@ -9,36 +9,36 @@ proxies:
   - {name: 🇭🇰 hk1, server: 47.76.162.143, port: 51371, type: vmess, uuid: e9e922a8-c5fc-4db4-ef69-b739ae8f084b, alterId: 0, cipher: auto, tls: false, udp: false}
   - {name: 🇭🇰 HK2, server: 47.76.143.179, port: 21862, type: vmess, uuid: ea51ab9b-5206-4e82-a228-7b8e05b7f4c5, alterId: 0, cipher: auto, tls: false, udp: false}
 
-  - {name: 埃及1, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-EG-sessid-pjgsiBmdOx-sessTime-30, password: dJIA8BM3}
-  - {name: 埃及2, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-EG-sessid-ho2F8c8AAr-sessTime-30, password: dJIA8BM3}
-  - {name: 埃及3, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-EG-sessid-M7g9wnwaBN-sessTime-30, password: dJIA8BM3}
-  - {name: 埃及4, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-EG-sessid-x0zhPi7qaa-sessTime-30, password: dJIA8BM3} 
-  - {name: 埃及5, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-EG-sessid-8th0LGlKNh-sessTime-30, password: dJIA8BM3}
-  - {name: 埃及6, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-EG-sessid-AsMhD3Dt1y-sessTime-30, password: dJIA8BM3}
-  - {name: 埃及7, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-EG-sessid-05dKglLlFv-sessTime-30, password: dJIA8BM3}
-  - {name: 埃及8, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-EG-sessid-B5nmrsvtvK-sessTime-30, password: dJIA8BM3} 
-  - {name: 埃及9, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-EG-sessid-2aINwDe9GK-sessTime-30, password: dJIA8BM3}
-  - {name: 埃及10, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-EG-sessid-IbJMO0tu4D-sessTime-30, password: dJIA8BM3}
-  - {name: 尼日利亚1, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-NG-sessid-dqyqGj6b-sessTime-30, password: dJIA8BM3}
-  - {name: 尼日利亚2, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-NG-sessid-DMhv70Ee-sessTime-30, password: dJIA8BM3}
-  - {name: 尼日利亚3, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-NG-sessid-I0fAANm7-sessTime-30, password: dJIA8BM3}
-  - {name: 尼日利亚4, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-NG-sessid-09FwM5Na-sessTime-30, password: dJIA8BM3} 
-  - {name: 尼日利亚5, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-NG-sessid-VWYXtL7H-sessTime-30, password: dJIA8BM3}
-  - {name: 尼日利亚6, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-NG-sessid-UEyJ42wa-sessTime-30, password: dJIA8BM3}
-  - {name: 尼日利亚7, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-NG-sessid-xx8wqt94-sessTime-30, password: dJIA8BM3}
-  - {name: 尼日利亚8, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-NG-sessid-2Sb1QoIA-sessTime-30, password: dJIA8BM3} 
-  - {name: 尼日利亚9, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-NG-sessid-1bibTzv3-sessTime-30, password: dJIA8BM3}
-  - {name: 尼日利亚10, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-NG-sessid-YQ5sef16-sessTime-30, password: dJIA8BM3}
-  - {name: 哥伦比亚1, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-Co-sessid-osTKR0px-sessTime-30, password: dJIA8BM3}
-  - {name: 哥伦比亚2, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-Co-sessid-aVKnc2cn-sessTime-30, password: dJIA8BM3}
-  - {name: 哥伦比亚3, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-Co-sessid-HuYruFhb-sessTime-30, password: dJIA8BM3}
-  - {name: 哥伦比亚4, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-Co-sessid-wvlblyRo-sessTime-30, password: dJIA8BM3} 
-  - {name: 哥伦比亚5, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-Co-sessid-tMiOLyQP-sessTime-30, password: dJIA8BM3}
-  - {name: 哥伦比亚6, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-Co-sessid-B5uY2W9u-sessTime-30, password: dJIA8BM3}
-  - {name: 哥伦比亚7, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-Co-sessid-3cShBKkb-sessTime-30, password: dJIA8BM3}
-  - {name: 哥伦比亚8, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-Co-sessid-D7P7tlf1-sessTime-30, password: dJIA8BM3} 
-  - {name: 哥伦比亚9, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-Co-sessid-sPt7fcpp-sessTime-30, password: dJIA8BM3}
-  - {name: 哥伦比亚10, server: 120.233.31.221, port: 14683, type: socks5, username: 47353961-zone-custom-region-Co-sessid-WCqQ0vmy-sessTime-30, password: dJIA8BM3}
+  - {name: 埃及1, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-EG-sessid-pjgsiBmdOx-sessTime-30, password: dJIA8BM3}
+  - {name: 埃及2, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-EG-sessid-ho2F8c8AAr-sessTime-30, password: dJIA8BM3}
+  - {name: 埃及3, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-EG-sessid-M7g9wnwaBN-sessTime-30, password: dJIA8BM3}
+  - {name: 埃及4, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-EG-sessid-x0zhPi7qaa-sessTime-30, password: dJIA8BM3} 
+  - {name: 埃及5, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-EG-sessid-8th0LGlKNh-sessTime-30, password: dJIA8BM3}
+  - {name: 埃及6, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-EG-sessid-AsMhD3Dt1y-sessTime-30, password: dJIA8BM3}
+  - {name: 埃及7, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-EG-sessid-05dKglLlFv-sessTime-30, password: dJIA8BM3}
+  - {name: 埃及8, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-EG-sessid-B5nmrsvtvK-sessTime-30, password: dJIA8BM3} 
+  - {name: 埃及9, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-EG-sessid-2aINwDe9GK-sessTime-30, password: dJIA8BM3}
+  - {name: 埃及10, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-EG-sessid-IbJMO0tu4D-sessTime-30, password: dJIA8BM3}
+  - {name: 尼日利亚1, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-NG-sessid-dqyqGj6b-sessTime-30, password: dJIA8BM3}
+  - {name: 尼日利亚2, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-NG-sessid-DMhv70Ee-sessTime-30, password: dJIA8BM3}
+  - {name: 尼日利亚3, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-NG-sessid-I0fAANm7-sessTime-30, password: dJIA8BM3}
+  - {name: 尼日利亚4, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-NG-sessid-09FwM5Na-sessTime-30, password: dJIA8BM3} 
+  - {name: 尼日利亚5, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-NG-sessid-VWYXtL7H-sessTime-30, password: dJIA8BM3}
+  - {name: 尼日利亚6, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-NG-sessid-UEyJ42wa-sessTime-30, password: dJIA8BM3}
+  - {name: 尼日利亚7, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-NG-sessid-xx8wqt94-sessTime-30, password: dJIA8BM3}
+  - {name: 尼日利亚8, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-NG-sessid-2Sb1QoIA-sessTime-30, password: dJIA8BM3} 
+  - {name: 尼日利亚9, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-NG-sessid-1bibTzv3-sessTime-30, password: dJIA8BM3}
+  - {name: 尼日利亚10, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-NG-sessid-YQ5sef16-sessTime-30, password: dJIA8BM3}
+  - {name: 哥伦比亚1, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-Co-sessid-osTKR0px-sessTime-30, password: dJIA8BM3}
+  - {name: 哥伦比亚2, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-Co-sessid-aVKnc2cn-sessTime-30, password: dJIA8BM3}
+  - {name: 哥伦比亚3, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-Co-sessid-HuYruFhb-sessTime-30, password: dJIA8BM3}
+  - {name: 哥伦比亚4, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-Co-sessid-wvlblyRo-sessTime-30, password: dJIA8BM3} 
+  - {name: 哥伦比亚5, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-Co-sessid-tMiOLyQP-sessTime-30, password: dJIA8BM3}
+  - {name: 哥伦比亚6, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-Co-sessid-B5uY2W9u-sessTime-30, password: dJIA8BM3}
+  - {name: 哥伦比亚7, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-Co-sessid-3cShBKkb-sessTime-30, password: dJIA8BM3}
+  - {name: 哥伦比亚8, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-Co-sessid-D7P7tlf1-sessTime-30, password: dJIA8BM3} 
+  - {name: 哥伦比亚9, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-Co-sessid-sPt7fcpp-sessTime-30, password: dJIA8BM3}
+  - {name: 哥伦比亚10, server: 103.255.209.124, port: 8104, type: socks5, username: 47353961-zone-custom-region-Co-sessid-WCqQ0vmy-sessTime-30, password: dJIA8BM3}
 proxy-providers:
           机场:
             type: http
