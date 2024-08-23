@@ -9,6 +9,16 @@ doh-server = https://doh.pub/dns-query
 Hong Kong 02 = vmess, 47.76.143.179, 21862, username=ea51ab9b-5206-4e82-a228-7b8e05b7f4c5, udp-relay=false
 Hong Kong 01 = vmess, 47.76.162.143, 51371, username=e9e922a8-c5fc-4db4-ef69-b739ae8f084b, udp-relay=false
 
+🇭🇰 香港_01 IEPL×5=ss,iepl01.51feitu.com,10001,encrypt-method=chacha20-ietf-poly1305,password=2f5100a9-a7c8-4cbc-9b3e-bed3ed3611c8,tfo=true,udp-relay=true
+🇭🇰 香港_02 IEPL×5=ss,iepl02.51feitu.com,10002,encrypt-method=chacha20-ietf-poly1305,password=2f5100a9-a7c8-4cbc-9b3e-bed3ed3611c8,tfo=true,udp-relay=true
+🇭🇰 香港_03 IEPL×5=ss,iepl03.51feitu.com,10003,encrypt-method=chacha20-ietf-poly1305,password=2f5100a9-a7c8-4cbc-9b3e-bed3ed3611c8,tfo=true,udp-relay=true
+🇭🇰 香港_04 IEPL×5=ss,iepl04.51feitu.com,10004,encrypt-method=chacha20-ietf-poly1305,password=2f5100a9-a7c8-4cbc-9b3e-bed3ed3611c8,tfo=true,udp-relay=true
+🇭🇰 香港_05 IEPL×5=ss,iepl05.51feitu.com,10005,encrypt-method=chacha20-ietf-poly1305,password=2f5100a9-a7c8-4cbc-9b3e-bed3ed3611c8,tfo=true,udp-relay=true
+🇭🇰 香港_06 IEPL×5=ss,iepl06.51feitu.com,10006,encrypt-method=chacha20-ietf-poly1305,password=2f5100a9-a7c8-4cbc-9b3e-bed3ed3611c8,tfo=true,udp-relay=true
+🇭🇰 香港_07 IEPL×5=ss,iepl07.51feitu.com,10007,encrypt-method=chacha20-ietf-poly1305,password=2f5100a9-a7c8-4cbc-9b3e-bed3ed3611c8,tfo=true,udp-relay=true
+🇭🇰 香港_08 IEPL×5=ss,iepl08.51feitu.com,10008,encrypt-method=chacha20-ietf-poly1305,password=2f5100a9-a7c8-4cbc-9b3e-bed3ed3611c8,tfo=true,udp-relay=true
+🇭🇰 香港_09=ss,hk09.51feitu.com,11009,encrypt-method=chacha20-ietf-poly1305,password=2f5100a9-a7c8-4cbc-9b3e-bed3ed3611c8,tfo=true,udp-relay=true
+🇭🇰 香港_10=ss,hk10.51feitu.com,11010,encrypt-method=chacha20-ietf-poly1305,password=2f5100a9-a7c8-4cbc-9b3e-bed3ed3611c8,tfo=true,udp-relay=true
 尼日利亚6=socks5, 82.153.135.9,18939,47353961-zone-custom-region-NG-sessid-nVbxctHV-sessTime-60,dJIA8BM3, udp-relay=false
 尼日利亚7=socks5, 82.153.135.9,18939,47353961-zone-custom-region-NG-sessid-lUyyJfx2-sessTime-60,dJIA8BM3, udp-relay=false
 尼日利亚8=socks5, 82.153.135.9,18939,47353961-zone-custom-region-NG-sessid-7Awu3A7I-sessTime-60,dJIA8BM3, udp-relay=false
@@ -43,8 +53,9 @@ Hong Kong 01 = vmess, 47.76.162.143, 51371, username=e9e922a8-c5fc-4db4-ef69-b73
 
 
 
+
 [Proxy Group]
-Proxies= select, policy-path=https://51tu.lol/Ff6eAe, update-interval=86400, Hong Kong 01, Hong Kong 02 
+Proxies= select,  Hong Kong 01, Hong Kong 02, 🇭🇰 香港_01 IEPL×5, 🇭🇰 香港_02 IEPL×5, 🇭🇰 香港_03 IEPL×5, 🇭🇰 香港_04 IEPL×5, 🇭🇰 香港_05 IEPL×5, 🇭🇰 香港_06 IEPL×5, 🇭🇰 香港_07 IEPL×5, 🇭🇰 香港_08 IEPL×5,🇭🇰 香港_09,🇭🇰 香港_10
 Googleplay= select,尼日利亚1, 尼日利亚2, 尼日利亚3,尼日利亚4,尼日利亚5,尼日利亚6, 尼日利亚7,尼日利亚8,尼日利亚9,尼日利亚10,土耳其1, 土耳其2, 土耳其3,土耳其4,土耳其5,土耳其6, 土耳其7,土耳其8,土耳其9,土耳其10,埃及1, 埃及2, 埃及3,埃及4,埃及5,埃及6, 埃及7,埃及8,埃及9,埃及10
 [Rule]
 DOMAIN-SUFFIX,ipapi.co,Googleplay
