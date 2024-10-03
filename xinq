@@ -39,16 +39,16 @@ Hong Kong 01 = vmess, 47.76.162.143, 51371, username=e9e922a8-c5fc-4db4-ef69-b73
 土耳其3=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-tr_session-YnrR5E1c, udp-relay=false
 土耳其4=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-tr_session-V6tYRXDu, udp-relay=false
 土耳其5=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-tr_session-bgDXZtaB, udp-relay=false
-埃及6=socks5, 47.237.133.236,18937,poiu4717,dJIA8BM3, udp-relay=false
-埃及7=socks5, 47.237.133.236,18937,poiu4717,dJIA8BM3, udp-relay=false
-埃及8=socks5, 47.237.133.236,18937,47353961-zone-custom-region-EG-sessid-GEFsCgmB-sessTime-60,dJIA8BM3, udp-relay=false
-埃及9=socks5, 47.237.133.236,18937,47353961-zone-custom-region-EG-sessid-8oGvKuzu-sessTime-60,dJIA8BM3, udp-relay=false
-埃及10=socks5, 47.237.133.236,18937,47353961-zone-custom-region-EG-sessid-t2M6czKa-sessTime-60,dJIA8BM3, udp-relay=false
-埃及1=socks5, 47.237.133.236,18937,47353961-zone-custom-region-EG-sessid-QWjblh8B-sessTime-60,dJIA8BM3, udp-relay=false
-埃及2=socks5, 47.237.133.236,18937,47353961-zone-custom-region-EG-sessid-oPE192E1-sessTime-60,dJIA8BM3, udp-relay=false
-埃及3=socks5, 47.237.133.236,18937,47353961-zone-custom-region-EG-sessid-2NfVl8CU-sessTime-60,dJIA8BM3, udp-relay=false
-埃及4=socks5, 47.237.133.236,18937,47353961-zone-custom-region-EG-sessid-yRnLC0RW-sessTime-60,dJIA8BM3, udp-relay=false
-埃及5=socks5, 47.237.133.236,18937,47353961-zone-custom-region-EG-sessid-epmN2HNI-sessTime-60,dJIA8BM3, udp-relay=false
+缅甸6=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-mm_session-Zq0oE6G7, udp-relay=false
+缅甸7=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-mm_session-B5hg83CJ, udp-relay=false
+缅甸8=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-mm_session-uMabWrq3, udp-relay=false
+缅甸9=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-mm_session-RTP96yVI, udp-relay=false
+缅甸10=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-mm_session-xlKhSAEz, udp-relay=false
+缅甸1=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-mm_session-76iYKGWy, udp-relay=false
+缅甸2=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-mm_session-YxVB5iTf, udp-relay=false
+缅甸3=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-mm_session-ncR0oXVN, udp-relay=false
+缅甸4=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-mm_session-kYeSf7GX, udp-relay=false
+缅甸5=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-mm_session-Iz8aXRWO, udp-relay=false
 哥伦比亚6=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-co_session-biwpxAjK, udp-relay=false
 哥伦比亚7=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-co_session-hqG1mSRn, udp-relay=false
 哥伦比亚8=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-co_session-eWO9xFC7, udp-relay=false
@@ -65,7 +65,7 @@ Hong Kong 01 = vmess, 47.76.162.143, 51371, username=e9e922a8-c5fc-4db4-ef69-b73
 
 [Proxy Group]
 Proxies= select,  🇭🇰 香港_11, 🇭🇰 香港_12, 🇭🇰 香港_13, 🇭🇰 香港_14, 🇭🇰 香港_15, 🇭🇰 香港_16, 🇭🇰 香港_17, 🇭🇰 香港_18, 🇭🇰 香港_19, 🇭🇰 香港_20
-Googleplay= select,尼日利亚1, 尼日利亚2, 尼日利亚3,尼日利亚4,尼日利亚5,尼日利亚6, 尼日利亚7,尼日利亚8,尼日利亚9,尼日利亚10,土耳其1, 土耳其2, 土耳其3,土耳其4,土耳其5,土耳其6, 土耳其7,土耳其8,土耳其9,土耳其10,埃及1, 埃及2, 埃及3,埃及4,埃及5,埃及6, 埃及7,埃及8,埃及9,埃及10,哥伦比亚1, 哥伦比亚2, 哥伦比亚3,哥伦比亚4,哥伦比亚5,哥伦比亚6, 哥伦比亚7,哥伦比亚8,哥伦比亚9,哥伦比亚10
+Googleplay= select,尼日利亚1, 尼日利亚2, 尼日利亚3,尼日利亚4,尼日利亚5,尼日利亚6, 尼日利亚7,尼日利亚8,尼日利亚9,尼日利亚10,土耳其1, 土耳其2, 土耳其3,土耳其4,土耳其5,土耳其6, 土耳其7,土耳其8,土耳其9,土耳其10,缅甸1, 缅甸2, 缅甸3,缅甸4,缅甸5,缅甸6, 缅甸7,缅甸8,缅甸9,缅甸10,哥伦比亚1, 哥伦比亚2, 哥伦比亚3,哥伦比亚4,哥伦比亚5,哥伦比亚6, 哥伦比亚7,哥伦比亚8,哥伦比亚9,哥伦比亚10
 [Rule]
 DOMAIN-SUFFIX,ipapi.co,Googleplay
 DOMAIN-SUFFIX,ip-api.com,Googleplay
