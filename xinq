@@ -29,18 +29,18 @@ Hong Kong 01 = vmess, 47.76.162.143, 51371, username=e9e922a8-c5fc-4db4-ef69-b73
 尼日利亚3=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-ng_session-NU75BwG0, udp-relay=false
 尼日利亚4=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-ng_session-ex6kNXMd, udp-relay=false
 尼日利亚5=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-ng_session-nszKiSyO, udp-relay=false
-土耳其6=socks5, 47.237.133.236,18937,47353961-zone-custom-region-TR-sessid-bvwTeohQ-sessTime-60,dJIA8BM3, udp-relay=false
-土耳其7=socks5, 47.237.133.236,18937,47353961-zone-custom-region-TR-sessid-6aptenkl-sessTime-60,dJIA8BM3, udp-relay=false
-土耳其8=socks5, 47.237.133.236,18937,47353961-zone-custom-region-TR-sessid-xbWlI3hR-sessTime-60,dJIA8BM3, udp-relay=false
-土耳其9=socks5, 47.237.133.236,18937,47353961-zone-custom-region-TR-sessid-5LNxBR5n-sessTime-60,dJIA8BM3, udp-relay=false
-土耳其10=socks5, 47.237.133.236,18937,47353961-zone-custom-region-TR-sessid-ifI9C365-sessTime-60,dJIA8BM3, udp-relay=false
-土耳其1=socks5, 47.237.133.236,18937,47353961-zone-custom-region-TR-sessid-WlvxzG80-sessTime-60,dJIA8BM3, udp-relay=false
-土耳其2=socks5, 47.237.133.236,18937,47353961-zone-custom-region-TR-sessid-CT4s7qsQ-sessTime-60,dJIA8BM3, udp-relay=false
-土耳其3=socks5, 47.237.133.236,18937,47353961-zone-custom-region-TR-sessid-aNoUfCx2-sessTime-60,dJIA8BM3, udp-relay=false
-土耳其4=socks5, 47.237.133.236,18937,47353961-zone-custom-region-TR-sessid-8PqteuLZ-sessTime-60,dJIA8BM3, udp-relay=false
-土耳其5=socks5, 47.237.133.236,18937,47353961-zone-custom-region-TR-sessid-7ZREgJpH-sessTime-60,dJIA8BM3, udp-relay=false
-埃及6=socks5, 47.237.133.236,18937,47353961-zone-custom-region-EG-sessid-AO0lB71G-sessTime-60,dJIA8BM3, udp-relay=false
-埃及7=socks5, 47.237.133.236,18937,47353961-zone-custom-region-EG-sessid-vQbSM7cu-sessTime-60,dJIA8BM3, udp-relay=false
+土耳其6=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-tr_session-gLJ6dkcR, udp-relay=false
+土耳其7=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-tr_session-VcoLGRvD, udp-relay=false
+土耳其8=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-tr_session-O152K6u0, udp-relay=false
+土耳其9=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-tr_session-uQkgMq0Y, udp-relay=false
+土耳其10=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-tr_session-VYpIj7C3, udp-relay=false
+土耳其1=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-tr_session-DdboUk3r, udp-relay=false
+土耳其2=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-tr_session-3zmP8b1d, udp-relay=false
+土耳其3=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-tr_session-YnrR5E1c, udp-relay=false
+土耳其4=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-tr_session-V6tYRXDu, udp-relay=false
+土耳其5=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-tr_session-bgDXZtaB, udp-relay=false
+埃及6=socks5, 47.237.133.236,18937,poiu4717,dJIA8BM3, udp-relay=false
+埃及7=socks5, 47.237.133.236,18937,poiu4717,dJIA8BM3, udp-relay=false
 埃及8=socks5, 47.237.133.236,18937,47353961-zone-custom-region-EG-sessid-GEFsCgmB-sessTime-60,dJIA8BM3, udp-relay=false
 埃及9=socks5, 47.237.133.236,18937,47353961-zone-custom-region-EG-sessid-8oGvKuzu-sessTime-60,dJIA8BM3, udp-relay=false
 埃及10=socks5, 47.237.133.236,18937,47353961-zone-custom-region-EG-sessid-t2M6czKa-sessTime-60,dJIA8BM3, udp-relay=false
@@ -49,16 +49,16 @@ Hong Kong 01 = vmess, 47.76.162.143, 51371, username=e9e922a8-c5fc-4db4-ef69-b73
 埃及3=socks5, 47.237.133.236,18937,47353961-zone-custom-region-EG-sessid-2NfVl8CU-sessTime-60,dJIA8BM3, udp-relay=false
 埃及4=socks5, 47.237.133.236,18937,47353961-zone-custom-region-EG-sessid-yRnLC0RW-sessTime-60,dJIA8BM3, udp-relay=false
 埃及5=socks5, 47.237.133.236,18937,47353961-zone-custom-region-EG-sessid-epmN2HNI-sessTime-60,dJIA8BM3, udp-relay=false
-哥伦比亚6=socks5, 47.237.133.236,18937,47353961-zone-custom-region-Co-sessid-EhlAUmGf-sessTime-60,dJIA8BM3, udp-relay=false
-哥伦比亚7=socks5, 47.237.133.236,18937,47353961-zone-custom-region-Co-sessid-8lj0PBHd-sessTime-60,dJIA8BM3, udp-relay=false
-哥伦比亚8=socks5, 47.237.133.236,18937,47353961-zone-custom-region-Co-sessid-E5U0EOXW-sessTime-60,dJIA8BM3, udp-relay=false
-哥伦比亚9=socks5, 47.237.133.236,18937,47353961-zone-custom-region-Co-sessid-12I4xDc1-sessTime-60,dJIA8BM3, udp-relay=false
-哥伦比亚10=socks5, 47.237.133.236,18937,47353961-zone-custom-region-Co-sessid-DiThLrxZ-sessTime-60,dJIA8BM3, udp-relay=false
-哥伦比亚1=socks5, 47.237.133.236,18937,47353961-zone-custom-region-Co-sessid-r6uA29hJ-sessTime-60,dJIA8BM3, udp-relay=false
-哥伦比亚2=socks5, 47.237.133.236,18937,47353961-zone-custom-region-Co-sessid-tse7PVGm-sessTime-60,dJIA8BM3, udp-relay=false
-哥伦比亚3=socks5, 47.237.133.236,18937,47353961-zone-custom-region-Co-sessid-buTfnZT7-sessTime-60,dJIA8BM3, udp-relay=false
-哥伦比亚4=socks5, 47.237.133.236,18937,47353961-zone-custom-region-Co-sessid-UewTrSLI-sessTime-60,dJIA8BM3, udp-relay=false
-哥伦比亚5=socks5, 47.237.133.236,18937,47353961-zone-custom-region-Co-sessid-eftI3QZ5-sessTime-60,dJIA8BM3, udp-relay=false
+哥伦比亚6=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-co_session-biwpxAjK, udp-relay=false
+哥伦比亚7=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-co_session-hqG1mSRn, udp-relay=false
+哥伦比亚8=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-co_session-eWO9xFC7, udp-relay=false
+哥伦比亚9=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-co_session-TZbNryBd, udp-relay=false
+哥伦比亚10=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-co_session-aKBGIRcT, udp-relay=false
+哥伦比亚1=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-co_session-51o2R73z, udp-relay=false
+哥伦比亚2=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-co_session-JQhy0Ugq, udp-relay=false
+哥伦比亚3=socks5, 47.237.133.236,18937,poiu47170,9gHUDSv8OK_country-co_session-Kz0LUiko, udp-relay=false
+哥伦比亚4=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-co_session-MKfV9bzS, udp-relay=false
+哥伦比亚5=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-co_session-FBzcOE6I, udp-relay=false
 
 
 
