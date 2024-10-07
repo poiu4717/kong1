@@ -24,10 +24,10 @@ Hong Kong 01 = vmess, 47.76.162.143, 51371, username=e9e922a8-c5fc-4db4-ef69-b73
 尼日利亚8=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-ng_session-5WEOa7cw, udp-relay=false
 尼日利亚9=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-ng_session-t8Fen2xi, udp-relay=false
 尼日利亚10=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-ng_session-GMFu7Y9p, udp-relay=false
-尼日利亚1=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-ng_session-ETbpmtSv, udp-relay=false
-尼日利亚2=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-ng_session-6SPXQmVG, udp-relay=false
-尼日利亚3=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-ng_session-NU75BwG0, udp-relay=false
-尼日利亚4=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-ng_session-ex6kNXMd, udp-relay=false
+尼日利亚1=socks5, direct.miyaip.online,10001,1b7b34cbmiyaipb76_g-NG_f-ff33_sid-yFwTXnNfmF2_l-30_sc-0,1h7a3lanaoiwnaahgl, udp-relay=false
+尼日利亚2=socks5, direct.miyaip.online,10001,1b7b34cbmiyaipb76_g-NG_f-ff33_sid-y0HnqnfxDXM_l-30_sc-0,1h7a3lanaoiwnaahgl, udp-relay=false
+尼日利亚3=socks5, direct.miyaip.online,10001,1b7b34cbmiyaipb76_g-NG_f-ff33_sid-gE69Qhdjzlq_l-30_sc-0,1h7a3lanaoiwnaahgl, udp-relay=false
+尼日利亚4=socks5, direct.miyaip.online,10001,1b7b34cbmiyaipb76_g-NG_f-ff33_sid-yQSZnlgj5Nc_l-30_sc-0,1h7a3lanaoiwnaahgl, udp-relay=false
 尼日利亚5=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-ng_session-nszKiSyO, udp-relay=false
 土耳其6=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-tr_session-gLJ6dkcR, udp-relay=false
 土耳其7=socks5, 47.237.133.236,18937,poiu4717,9gHUDSv8OK_country-tr_session-VcoLGRvD, udp-relay=false
