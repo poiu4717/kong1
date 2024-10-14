@@ -19,6 +19,12 @@ Hong Kong 01 = vmess, 47.76.162.143, 51371, username=e9e922a8-c5fc-4db4-ef69-b73
 🇭🇰 香港_18=ss,hk18.51feitu.com,11018,encrypt-method=chacha20-ietf-poly1305,password=2f5100a9-a7c8-4cbc-9b3e-bed3ed3611c8,tfo=true,udp-relay=true
 🇭🇰 香港_19=ss,hk19.51feitu.com,11019,encrypt-method=chacha20-ietf-poly1305,password=2f5100a9-a7c8-4cbc-9b3e-bed3ed3611c8,tfo=true,udp-relay=true
 🇭🇰 香港_20=ss,hk20.51feitu.com,11020,encrypt-method=chacha20-ietf-poly1305,password=2f5100a9-a7c8-4cbc-9b3e-bed3ed3611c8,tfo=true,udp-relay=true
+香港01-高速=trojan,bgp.leishen5288.top,31000,password=6d31beb2-d63d-4584-a66a-61d60bf42005,sni=www.bilibili.com,tfo=true,udp-relay=true,skip-cert-verify=true
+香港02-高速=trojan,asd.leishen5288.top,31014,password=6d31beb2-d63d-4584-a66a-61d60bf42005,sni=www.bilibili.com,tfo=true,udp-relay=true,skip-cert-verify=true
+香港03-高速=trojan,bgp.leishen5288.top,31008,password=6d31beb2-d63d-4584-a66a-61d60bf42005,sni=www.bilibili.com,tfo=true,udp-relay=true,skip-cert-verify=true
+香港04-高速=trojan,asd.leishen5288.top,30012,password=6d31beb2-d63d-4584-a66a-61d60bf42005,sni=www.bilibili.com,tfo=true,udp-relay=true,skip-cert-verify=true
+香港05-高速=trojan,bgp.leishen5288.top,31004,password=6d31beb2-d63d-4584-a66a-61d60bf42005,sni=www.bilibili.com,tfo=true,udp-relay=true,skip-cert-verify=true
+香港06-高速=trojan,asd.leishen5288.top,31106,password=6d31beb2-d63d-4584-a66a-61d60bf42005,sni=www.bilibili.com,tfo=true,udp-relay=true,skip-cert-verify=true
 日本01=ss,jp01.51feitu.com,13001,encrypt-method=chacha20-ietf-poly1305,password=2f5100a9-a7c8-4cbc-9b3e-bed3ed3611c8,tfo=true,udp-relay=true
 日本02=ss,jp02.51feitu.com,13002,encrypt-method=chacha20-ietf-poly1305,password=2f5100a9-a7c8-4cbc-9b3e-bed3ed3611c8,tfo=true,udp-relay=true
 日本03=ss,jp03.51feitu.com,13003,encrypt-method=chacha20-ietf-poly1305,password=2f5100a9-a7c8-4cbc-9b3e-bed3ed3611c8,tfo=true,udp-relay=true
@@ -74,7 +80,7 @@ Hong Kong 01 = vmess, 47.76.162.143, 51371, username=e9e922a8-c5fc-4db4-ef69-b73
 
 
 [Proxy Group]
-Proxies= select,  🇭🇰 香港_11, 🇭🇰 香港_12, 🇭🇰 香港_13, 🇭🇰 香港_14, 🇭🇰 香港_15, 🇭🇰 香港_16, 🇭🇰 香港_17, 🇭🇰 香港_18, 🇭🇰 香港_19, 🇭🇰 香港_20, 日本01, 日本02, 日本03, 日本04, 日本05, 日本06, 🇯🇵 日本_07, 日本08, 日本09, 日本10
+Proxies= select,  🇭🇰 香港_11, 🇭🇰 香港_12, 🇭🇰 香港_13, 🇭🇰 香港_14, 🇭🇰 香港_15, 🇭🇰 香港_16, 🇭🇰 香港_17, 🇭🇰 香港_18, 🇭🇰 香港_19, 🇭🇰 香港_20, 日本01, 日本02, 日本03, 日本04, 日本05, 日本06, 🇯🇵 日本_07, 日本08, 日本09, 日本10, 香港01-高速, 香港02-高速, 香港03-高速, 香港04-高速, 香港05-高速, 香港06-高速
 Googleplay= select,尼日利亚1, 尼日利亚2, 尼日利亚3,尼日利亚4,尼日利亚5,尼日利亚6, 尼日利亚7,尼日利亚8,尼日利亚9,尼日利亚10,土耳其1, 土耳其2, 土耳其3,土耳其4,土耳其5,土耳其6, 土耳其7,土耳其8,土耳其9,土耳其10,缅甸1, 缅甸2, 缅甸3,缅甸4,缅甸5,缅甸6, 缅甸7,缅甸8,缅甸9,缅甸10,哥伦比亚1, 哥伦比亚2, 哥伦比亚3,哥伦比亚4,哥伦比亚5,哥伦比亚6, 哥伦比亚7,哥伦比亚8,哥伦比亚9,哥伦比亚10
 [Rule]
 DOMAIN-SUFFIX,ipapi.co,Googleplay
