@@ -90,11 +90,11 @@ proxies:
   - {name: 🇯🇵 日本02-高速|BGP, server: asd.leishen5288.top, port: 32017, type: trojan, password: 6d31beb2-d63d-4584-a66a-61d60bf42005, sni: www.bilibili.com, skip-cert-verify: true}
   - {name: 🇯🇵 日本03-高速|CU, server: bgp.leishen5288.top, port: 32018, type: trojan, password: 6d31beb2-d63d-4584-a66a-61d60bf42005, sni: www.bilibili.com, skip-cert-verify: true}
   - {name: 🇯🇵 日本04-高速|BGP, server: asd.leishen5288.top, port: 32109, type: trojan, password: 6d31beb2-d63d-4584-a66a-61d60bf42005, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 印尼1, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-ID-sessid-FyZPSpNu-sessTime-60, password: dJIA8BM3}
-  - {name: 印尼2, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-ID-sessid-q6EAKsO0-sessTime-60, password: dJIA8BM3}
-  - {name: 印尼3, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-ID-sessid-G31tpKZr-sessTime-60, password: dJIA8BM3}
-  - {name: 印尼4, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-ID-sessid-VQ5zbCfa-sessTime-60, password: dJIA8BM3}
-  - {name: 印尼5, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-ID-sessid-Xa0pLZRp-sessTime-60, password: dJIA8BM3}
+  - {name: 巴西1, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-BR-sessid-oZETxKKK-sessTime-60, password: dJIA8BM3}
+  - {name: 巴西2, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-BR-sessid-oRkKwYsJ-sessTime-60, password: dJIA8BM3}
+  - {name: 巴西3, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-BR-sessid-bUUxBvbL-sessTime-60, password: dJIA8BM3}
+  - {name: 巴西4, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-BR-sessid-eqMRk85D-sessTime-60, password: dJIA8BM3}
+  - {name: 巴西5, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-BR-sessid-oDLQ9MbY-sessTime-60, password: dJIA8BM3}
 
 proxy-providers:
     
@@ -150,11 +150,11 @@ proxy-groups:
       - 缅甸8
       - 缅甸9
       - 缅甸10
-      - 印尼1
-      - 印尼2
-      - 印尼3
-      - 印尼4
-      - 印尼5
+      - 巴西1
+      - 巴西2
+      - 巴西3
+      - 巴西4
+      - 巴西5
 
       - 土耳其1
       - 土耳其2
