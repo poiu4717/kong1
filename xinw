@@ -96,6 +96,11 @@ proxies:
   - {name: 巴西4, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-BR-sessid-eqMRk85D-sessTime-60, password: dJIA8BM3}
   - {name: 巴西5, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-BR-sessid-oDLQ9MbY-sessTime-60, password: dJIA8BM3}
 
+  - {name: 印尼1, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-ID-sessid-SV5n3tlR-sessTime-30, password: dJIA8BM3}
+  - {name: 印尼2, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-ID-sessid-VnCISgVv-sessTime-30, password: dJIA8BM3}
+  - {name: 印尼3, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-ID-sessid-VyH6qxrd-sessTime-30, password: dJIA8BM3}
+  - {name: 印尼4, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-ID-sessid-cHzUnagV-sessTime-30, password: dJIA8BM3}
+  - {name: 印尼5, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-ID-sessid-XMJLUrZb-sessTime-30, password: dJIA8BM3}
 proxy-providers:
     
     机场:
@@ -155,6 +160,11 @@ proxy-groups:
       - 巴西3
       - 巴西4
       - 巴西5
+      - 印尼1
+      - 印尼2
+      - 印尼3
+      - 印尼4
+      - 印尼5
 
       - 土耳其1
       - 土耳其2
