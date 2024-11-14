@@ -76,20 +76,26 @@ proxies:
   - {name: 哥伦比亚8, server: sg-iepl.com, port: 33055, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-co_session-D6VHOu7E}
   - {name: 哥伦比亚9, server: sg-iepl.com, port: 33055, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-co_session-aQXmlf7w}
   - {name: 哥伦比亚10, server: sg-iepl.com, port: 33055, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-co_session-V0NUkncP}
-  - {name: 🇭🇰 香港01-高速|CU, server: bgp.leishen5288.top, port: 31000, type: trojan, password: 6d31beb2-d63d-4584-a66a-61d60bf42005, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港02-高速|BGP, server: asd.leishen5288.top, port: 31014, type: trojan, password: 6d31beb2-d63d-4584-a66a-61d60bf42005, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港03-高速|CU, server: bgp.leishen5288.top, port: 31008, type: trojan, password: 6d31beb2-d63d-4584-a66a-61d60bf42005, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港04-高速|BGP, server: asd.leishen5288.top, port: 30012, type: trojan, password: 6d31beb2-d63d-4584-a66a-61d60bf42005, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港05-高速|CU, server: bgp.leishen5288.top, port: 31004, type: trojan, password: 6d31beb2-d63d-4584-a66a-61d60bf42005, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港06-高速||BGP, server: asd.leishen5288.top, port: 31106, type: trojan, password: 6d31beb2-d63d-4584-a66a-61d60bf42005, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾01-高速|CU, server: bgp.leishen5288.top, port: 32011, type: trojan, password: 6d31beb2-d63d-4584-a66a-61d60bf42005, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾02-高速||BGP, server: asd.leishen5288.top, port: 33144, type: trojan, password: 6d31beb2-d63d-4584-a66a-61d60bf42005, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾03-高速|CU, server: bgp.leishen5288.top, port: 32099, type: trojan, password: 6d31beb2-d63d-4584-a66a-61d60bf42005, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾04-高速|BGP, server: asd.leishen5288.top, port: 33133, type: trojan, password: 6d31beb2-d63d-4584-a66a-61d60bf42005, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本01-高速|CU, server: bgp.leishen5288.top, port: 39012, type: trojan, password: 6d31beb2-d63d-4584-a66a-61d60bf42005, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本02-高速|BGP, server: asd.leishen5288.top, port: 32017, type: trojan, password: 6d31beb2-d63d-4584-a66a-61d60bf42005, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本03-高速|CU, server: bgp.leishen5288.top, port: 32018, type: trojan, password: 6d31beb2-d63d-4584-a66a-61d60bf42005, sni: www.bilibili.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本04-高速|BGP, server: asd.leishen5288.top, port: 32109, type: trojan, password: 6d31beb2-d63d-4584-a66a-61d60bf42005, sni: www.bilibili.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港_01-负载, server: hk01.51feitu.com, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_02-负载, server: hk02.51feitu.com, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_03-负载, server: hk03.51feitu.com, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_04-负载, server: hk04.51feitu.com, port: 10004, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_05-负载, server: hk05.51feitu.com, port: 10005, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_06, server: hk06.51feitu.com, port: 10006, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_07, server: hk07.51feitu.com, port: 10007, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_08, server: hk08.51feitu.com, port: 10008, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_09, server: hk09.51feitu.com, port: 10009, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_10, server: hk10.51feitu.com, port: 10010, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_11-负载, server: hk11.51feitu.com, port: 11011, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_12-负载, server: hk12.51feitu.com, port: 11012, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_13-负载, server: hk13.51feitu.com, port: 11013, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_14-负载, server: hk14.51feitu.com, port: 11014, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_15-负载, server: hk15.51feitu.com, port: 11015, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_16, server: hk16.51feitu.com, port: 11016, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_17, server: hk17.51feitu.com, port: 11017, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_18, server: hk18.51feitu.com, port: 11018, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_19, server: hk19.51feitu.com, port: 11019, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
+  - {name: 🇭🇰 香港_20, server: hk20.51feitu.com, port: 11020, type: ss, cipher: chacha20-ietf-poly1305, password: 0cd7c79d-9480-4565-bc3a-cbb7402983bb}
   - {name: 巴西1, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-BR-sessid-oZETxKKK-sessTime-60, password: dJIA8BM3}
   - {name: 巴西2, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-BR-sessid-oRkKwYsJ-sessTime-60, password: dJIA8BM3}
   - {name: 巴西3, server: sg-iepl.com, port: 55587, type: socks5, username: 47353961-zone-custom-region-BR-sessid-bUUxBvbL-sessTime-60, password: dJIA8BM3}
@@ -193,22 +199,26 @@ proxy-groups:
     type: select
     proxies:
      
-      - 🇭🇰 hk1
-      - 🇭🇰 HK2
-      - 🇭🇰 香港01-高速|CU
-      - 🇭🇰 香港02-高速|BGP
-      - 🇭🇰 香港03-高速|CU
-      - 🇭🇰 香港04-高速|BGP
-      - 🇭🇰 香港05-高速|CU
-      - 🇭🇰 香港06-高速||BGP
-      - 🇨🇳 台湾01-高速|CU
-      - 🇨🇳 台湾02-高速||BGP
-      - 🇨🇳 台湾03-高速|CU
-      - 🇨🇳 台湾04-高速|BGP
-      - 🇯🇵 日本01-高速|CU
-      - 🇯🇵 日本02-高速|BGP
-      - 🇯🇵 日本03-高速|CU
-      - 🇯🇵 日本04-高速|BGP
+      - 🇭🇰 香港_01-负载
+      - 🇭🇰 香港_02-负载
+      - 🇭🇰 香港_03-负载
+      - 🇭🇰 香港_04-负载
+      - 🇭🇰 香港_05-负载
+      - 🇭🇰 香港_06
+      - 🇭🇰 香港_07
+      - 🇭🇰 香港_08
+      - 🇭🇰 香港_09
+      - 🇭🇰 香港_10
+      - 🇭🇰 香港_11-负载
+      - 🇭🇰 香港_12-负载
+      - 🇭🇰 香港_13-负载
+      - 🇭🇰 香港_14-负载
+      - 🇭🇰 香港_15-负载
+      - 🇭🇰 香港_16
+      - 🇭🇰 香港_17
+      - 🇭🇰 香港_18
+      - 🇭🇰 香港_19
+      - 🇭🇰 香港_20
     use:
       - 机场
 
