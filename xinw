@@ -105,7 +105,7 @@ proxy-providers:
     
     机场:
         type: http # http 的 path 可空置,默认储存路径为 homedir的proxies文件夹,文件名为url的md5
-        url: "https://subs.feituyun.xyz/sub?target=clash&url=https%3A%2F%2Ffly0001.buzz%2Fgateway%2Ffeitu%3Ftoken%3D7c7af77cd89834749191b2c042b2e998&insert=false" #订阅链接存放在双引号内
+        url: "https://51tu.lol/Fd9A8A" #订阅链接存放在双引号内
         interval: 86400 #机场订阅自动更新时间 单位：秒
         path: ./hj_sub.yaml # 默认只允许存储在 clash 的 Home Dir，如果想存储到任意位置，添加环境变量 SKIP_SAFE_PATH_CHECK=1
         health-check:
